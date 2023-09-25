@@ -1,5 +1,8 @@
 ---
 
 - hosts: "{{ runner_hosts | default('localhost') }}"
+  vars:
+    python2: false
+    python3: false
   roles:
     - deitkrachten.molecule
