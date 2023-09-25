@@ -1,0 +1,11 @@
+---
+
+roles:
+  - name: deitkrachten.molecule
+    src: https://github.com/de-it-krachten/ansible-role-molecule.git
+    version: dev
+    scm: git
+  - name: deitkrachten.python
+    src: https://github.com/de-it-krachten/ansible-role-python.git
+    version: dev
+    scm: git
